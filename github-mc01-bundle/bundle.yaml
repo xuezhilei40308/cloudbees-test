@@ -1,0 +1,11 @@
+id: "global-bundle"
+version: "2"
+apiVersion: "1"
+description: "MC01 CloudBees Configuration as Code (CasC) bundle for Global Projects"
+allowCapExceptions: true
+availabilityPattern: "global-bundle/.*"
+jcasc:
+  - "jenkins.yaml"
+jcascMergeStrategy: "errorOnConflict"
+plugins:
+  - "plugins.yaml"
